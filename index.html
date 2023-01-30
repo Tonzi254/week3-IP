@@ -4,8 +4,12 @@
 <head>
     <html content="text/html">
     <title>Daniel Studio</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet'>
     <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <!-- <link href="css/bootstrap.css" rel="stylesheet" type="text/css"> -->
+
     <style type="text/css">
         h {
             white-space: pre-line;
@@ -15,44 +19,7 @@
             white-space: pre-line;
         }
 
-        .intro {
-            width: 100%;
-            height: 100vh;
-            background: url(assets/backgrounds/h_img.jpg);
-            background-size: cover;
-            background-position: center;
-            color:white;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            white-space: pre-line;
-        }
 
-        .services {
-            width: 100%;
-            height: 100vh;
-            background: url(assets/backgrounds/s_image.jpg);
-            background-size: cover;
-            background-position: center;
-            color:white;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            white-space: pre-line;
-        }
-
-        .contactUS {
-            width: 100%;
-            height: 100vh;
-            background: url(assets/backgrounds/c_image.jpg);
-            background-size: cover;
-            background-position: center;
-            color:white;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            white-space: pre-line;
-        }
     </style>
 </head>
 
@@ -62,10 +29,9 @@
 
     <div class='row'>
         <div class="column">
-            <!-- <img src="assets/backgrounds/h_img.jpg"> -->
             <div class="intro">
                 <h>WELCOME
-                    TO DANIEL STUDIO
+                    TO DELANI STUDIO
                     AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</h>
             </div>
         </div>
@@ -90,7 +56,6 @@
     <div class='row'>
         <div class="column">
             <div class="services">
-                <!-- <img src="assets/backgrounds/s_image.jpg"> -->
                 <h>SERVICES
                     <p>Before we sign a contract or write a line of code our team will spend the necessary time needed
                         to
@@ -125,84 +90,97 @@
 
     <!-- PORTFOLIO SECTION -->
 
-    <div class='row'>
-        <div class="column">
-            <h>PORTFOLIO</h>
-        </div>
-    </div>
+    <div class='portfolio'>
+        <h2>PORTFOLIO</h2>
 
-    <div class='row'>
+        <div class='row' id="portfolio">
 
-        <div class="column">
-            <img src="assets/portfolio/work1.jpg">
-            <img src="assets/portfolio/work2.jpg">
-            <img src="assets/portfolio/work3.jpg">
-            <img src="assets/portfolio/work4.jpg">
-        </div>
-
-    </div>
-
-    <div class='row'>
-        <div class="column">
-            <img src="assets/portfolio/work5.jpg">
-            <img src="assets/portfolio/work6.jpg">
-            <img src="assets/portfolio/work7.jpg">
-            <img src="assets/portfolio/work8.jpg">
-        </div>
-
-    </div>
-
-    <!-- CONTACT US SECTION -->
-
-    <div class="contactUS">
-        <h>CONTACT US
-            <div class="row">
-                <!-- <img src="assets/backgrounds/c_image.jpg"> -->
-                <label for="nameBox"></label>
-                <input type="text" id="nameBox" value="Name...">
-                <label for="emailBox"></label>
-                <input type="email" id="emailBox" value="Email...">
+            <div class="col-md-3">
+                <div class="card text-center" id="work4">
+                    <img src="assets/portfolio/work4.jpg">
+                    <h3 id="overlay4" class="overlay text-center">Blank</h3>
+                </div>
+                <div class="card text-center" id="work3">
+                    <img src="assets/portfolio/work3.jpg">
+                    <h3 id="overlay3" class="overlay text-center">Corporate Logos</h3>
+                </div>
+                <div class="card text-center" id="work2">
+                    <img src="assets/portfolio/work2.jpg">
+                    <h3 id="overlay2" class="overlay text-center">Wallpapers</h3>
+                </div>
+                <div class="card text-center" id="work1">
+                    <img src="assets/portfolio/work1.jpg">
+                    <h3 id="overlay1" class="overlay text-center">Widgets</h3>
+                </div>
             </div>
-            <div class="row">
-                <label for="messageBox"></label>
-                <input type="text" id="messageBox" value="Your message here...">
-            </div>
-            <div class="row">
-                <button id="sendButton">SEND</button>
-            </div>
-        </h>
-    </div>
-
-    <div class='row'>
-        <div class="column">
-            <img src="assets/social_icons/twitter.png">
-            <img src="assets/social_icons/dribble.png">
-            <img src="assets/social_icons/facebook.png">
-            <img src="assets/social_icons/g_plus.png">
-            <img src="assets/social_icons/skype.png">
-            <img src="assets/social_icons/stumble_upon.png">
-            <img src="assets/social_icons/behance.png">
-            <img src="assets/social_icons/pinterest.png">
-            <img src="assets/social_icons/flickr.png">
-            <img src="assets/social_icons/you_tube.png">
         </div>
 
-    </div>
+        <div class='row' id="portfolio">
 
-    <div class="row">
-        <div class="column">
-
-            <p>DANIEL STUDIO
-                2019</p>
-
+            <div class="col-md-3">
+                <div class="card text-center" id="work5">
+                    <img src="assets/portfolio/work5.jpg">
+                    <h3 id="overlay5" class="overlay text-center">Blogs</h3>
+                </div>
+                <div class="card text-center" id="work6">
+                    <img src="assets/portfolio/work6.jpg">
+                    <h3 id="overlay6" class="overlay text-center">User Interface</h3>
+                </div>
+                <div class="card text-center" id="work7">
+                    <img src="assets/portfolio/work7.jpg">
+                    <h3 id="overlay7" class="overlay text-center">Burned Logo</h3>
+                </div>
+                <div class="card text-center" id="work8">
+                    <img src="assets/portfolio/work8.jpg">
+                    <h3 id="overlay8" class="overlay text-center">Bailey Wonger</h3>
+                </div>
+            </div>
         </div>
-    </div>
+        </div>
 
-    <!-- Link to Jquery -->
-    <!-- NB: Place JQuery at the bottom of the body tag -->
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-    <script src="ContactUS.js"></script>
+        <!-- CONTACT US SECTION -->
+
+        <div class="contactUS">
+            <h2>CONTACT US</h2>
+            <div class="d-flex align-items-center justify-content-center">
+                <form class="form-contact px-5" id="contactForm" method="post">
+                    <div class="row form-group">
+                        <div class="col">
+                            <input type="text" class="form-control" id="name" size="20" placeholder="Name...">
+                        </div>
+                        <div class="col">
+                            <input type="email" class="form-control" id="email" size="20" placeholder="Email...">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" class="form-control" rows="10"
+                            placeholder="Your message here..."> </textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary col-md-4">Submit</button>
+                </form>
+            </div>
+        </div>
+
+        <footer>
+            <img src="assets/social_icons/twitter.png" alt="Twitter">
+            <img src="assets/social_icons/dribble.png" alt="Dribble">
+            <img src="assets/social_icons/facebook.png" alt="Facebook">
+            <img src="assets/social_icons/g_plus.png" alt="Goggle Plus">
+            <img src="assets/social_icons/skype.png" alt="Skype">
+            <img src="assets/social_icons/stumble_upon.png" alt="Stumble upon">
+            <img src="assets/social_icons/behance.png" alt="Behance">
+            <img src="assets/social_icons/pinterest.png" alt="Pinterest">
+            <img src="assets/social_icons/flickr.png" alt="Flickr">
+            <img src="assets/social_icons/you_tube.png" alt="YouTube">
+            <p>DELANI STUDIO</p>
+            <p>2023</p>
+        </footer>
+        <!-- Link to Jquery -->
+        <!-- NB: Place JQuery at the bottom of the body tag -->
+
+        <script src="https://code.jquery.com/jquery-3.6.1.js"> </script>
+        <script src="ContactUS.js"></script>
 
 </body>
 
