@@ -77,16 +77,20 @@ $(document).ready(function () {
     });
 
     $("form#contactForm").submit(function (event) {
+
         event.preventDefault();
         var name = $("input#name").val();
         var email = $("input#email").val();
         var message = $("textarea#message").val();
-        if (name && email != '') {
+
+        if (name || email != '') {
             alert("Hello " +name + ". Thank you for contacting us. We have received your message and will get back to you shortly via email to " +email);
         }
         else {
-            alert("Please enter your name and email!");
+            alert("Please enter your name and/or email address before clicking on the submit button");
         }
+
+    
 
     });
 

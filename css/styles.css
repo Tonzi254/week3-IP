@@ -106,12 +106,12 @@ input[type=email],
 
 footer {
     text-align: center;
-    padding-top: 30px;
-    padding-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 5px;
 }
 
 footer p {
-    margin-top: 1%;
+    margin-top: 3%;
 }
 
 .form-control::-webkit-input-placeholder {
