@@ -76,13 +76,13 @@ $(document).ready(function () {
         $("#prod-image").slideDown('1500');
     });
 
-    $("form#contactFORM").submit(function (event) {
+    $("form#contactForm").submit(function (event) {
         event.preventDefault();
         var name = $("input#name").val();
         var email = $("input#email").val();
         var message = $("textarea#message").val();
         if (name && email != '') {
-            alert(name + ", Thank you for contacting us. We have received your message and will get back to you soon");
+            alert("Hello " +name + ". Thank you for contacting us. We have received your message and will get back to you shortly via email to " +email);
         }
         else {
             alert("Please enter your name and email!");
