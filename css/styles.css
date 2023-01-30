@@ -22,7 +22,7 @@
     height: 70px;
 }
 
-.mouse-click{
+.mouse-click {
     padding-top: 22px;
     margin-top: 10%;
 }
@@ -37,6 +37,14 @@
     padding: 10%;
 }
 
+.hidden-content {
+    display: none;
+}
+
+.card{
+    border: 0;
+}
+
 .overlay {
     display: none;
     color: black;
@@ -47,7 +55,7 @@
     top: 20px;
     left: 35px;
     text-align: center;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .col-md-3 img {
@@ -72,7 +80,7 @@
     font-family: 'Gabriela', serif;
 }
 
-.form-contact{
+.form-contact {
     display: flex;
     flex-direction: column;
     gap: 10px;
