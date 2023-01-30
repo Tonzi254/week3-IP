@@ -48,7 +48,6 @@ $(document).ready(function () {
         $("#overlay8").hide();
     });
 
-
     $("#design-image").click(function () {
         $("#design-image").slideDown('1500').hide('1000');
         $("#design").show('1500');
@@ -84,7 +83,7 @@ $(document).ready(function () {
         var message = $("textarea#message").val();
 
         if (name || email != '') {
-            alert("Hello " +name + ". Thank you for contacting us. We have received your message and will get back to you shortly via email to " +email);
+            alert("Hello " + name + ". Thank you for contacting us. We have received your message and will get back to you shortly via email to " + email);
         }
         else {
             alert("Please enter your name and/or email address before clicking on the submit button");
