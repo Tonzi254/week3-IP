@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+  }
+
 .site-container {
     justify-content: center;
     flex-direction: column;
@@ -121,9 +125,20 @@ footer p {
 }
 
 
-@media only screen and (max-width: auto) {
-    .column {
+@media only screen and (max-width: 768px) {
+    .col {
         display: block;
         width: 100%;
     }
+
+    .row {
+        display: block;
+        width: 100%;
+    }
+
+    .card {
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+
 }
