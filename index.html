@@ -6,7 +6,6 @@
     <title>Daniel Studio</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet'>
     <link href="css/styles.css" rel="stylesheet" type="text/css">
 
@@ -67,16 +66,57 @@
 
             <div class='row mt-3'>
                 <div class="col-md-4">
-                    <img src="assets/services_icons/design_icon.png" alt="Design">
-                    <p>DESIGN</p>
+                    <div class="hidden-content" id="design">
+                        <h2 class="title">DESIGN</h2>
+                        <p>
+                            Our design practice offers a full range of services including
+                            brand strategy, interaction, visual design and user experience
+                            testing.
+                        </p>
+                        <p>
+                            Throughout your project, our designers create and implement visual
+                            design and workflows, solicit user feedback and work with you to
+                            make sure what gets built is what is needed.
+                        </p>
+                    </div>
+                    <div id="design-image">
+                        <img src="assets/services_icons/design_icon.png" alt="Design">
+                        <p>DESIGN</p>
+                    </div>
                 </div>
                 <div class="col-md-4">
-                    <img src="assets/services_icons/dev_icon.png" alt="Development">
-                    <p>DEVELOPMENT</p>
+                    <div class="hidden-content" id="development">
+                        <h2 class="title">DEVELOPMENT</h2>
+                        <p>
+                            All engineers are fluent in the latest enterprise, mobile and web
+                            development technologies.
+                        </p>
+                        <p>
+                            They collaborate with your team to write, and improve code on a
+                            daily basis, using proven practices such as test-driven
+                            development and pair programming.
+                        </p>
+                    </div>
+                    <div id="dev-image">
+                        <img src="assets/services_icons/dev_icon.png" alt="Development">
+                        <p>DEVELOPMENT</p>
+                    </div>
                 </div>
                 <div class="col col-md-4">
-                    <img src="assets/services_icons/product_icon.png" alt="Product Management">
-                    <p>PRODUCT MANAGEMENT</p>
+                    <div class="hidden-content" id="productmgt">
+                        <h2 class="title">PRODUCT MANAGEMENT</h2>
+                        <p>
+                            Planning and development is iterative. Because we are constantly coding and testing,
+                            the products we build are always ready to go live.
+                        </p>
+                        <p>
+                            The iterative process allows for changes as business requirements evolve.
+                        </p>
+                    </div>
+                    <div id="prod-image">
+                        <img src="assets/services_icons/product_icon.png" alt="Product Management">
+                        <p>PRODUCT MANAGEMENT</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -182,9 +222,11 @@
         <p>DELANI STUDIO</p>
         <p>2023</p>
     </footer>
-    <!-- Link to Jquery -->
-    <!-- NB: Place JQuery at the bottom of the body tag -->
 
+    <!-- Link to jQuery and Bootstrap JS -->
+    <!-- NB: Place jQuery at the bottom of the body tag -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.1.js"> </script>
     <script src="ContactUS.js"></script>
 
