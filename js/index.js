@@ -90,8 +90,6 @@ $(document).ready(function () {
             alert("Please enter your name and/or email address before clicking on the submit button");
         }
 
-    
-
     });
 
 });
