@@ -3,10 +3,12 @@
 Delani Studio is an independent proect that involves creating a portfolio quality website that introduces Delani Studio company and showcases our services, what we do and our portfolio. It also allows you to contact us with any queries you might have.
 
 # Project Author
-This project was developed by [Daniel Rotich] (https://github.com/Tonzi254)
+This project was developed by Daniel Rotich.
 
-# Project Link 
-To access the project URL click [here] (https://tonzi254.github.io/wk3-IP)/ 
+# Installation and Project Link 
+To access this project click the below URL or copy the URL and paste it into your browser 
+
+https://tonzi254.github.io/wk3-IP/
 
 # Technologies Deployed
 
